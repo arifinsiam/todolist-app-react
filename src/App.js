@@ -23,10 +23,9 @@ function App() {
     }
   }
 
-  // useEffect(() => {
-  //   filterHandler();
-  //   saveLocalTodos();
-  // }, [todos, status])
+  useEffect(() => {
+    filterHandler();
+  }, [todos, status])
 
   // useEffect(()=> {
   //   getLocalTodos();
